@@ -1,7 +1,10 @@
 const calculator = {
     add:(num1, num2)=> num1 + num2,
-    sub:(num1, num2)=> num1 - num2
+    sub:(num1, num2)=> num1 - num2,
+    multi:(num1, num2)=> num1 * num2,
+
 }
 
 console.log(calculator.add(5,3))
 console.log(calculator.sub(5,3))
+console.log(calculator.multi(5,3))
